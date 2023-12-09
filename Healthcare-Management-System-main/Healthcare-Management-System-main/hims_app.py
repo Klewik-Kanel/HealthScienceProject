@@ -169,6 +169,7 @@ def home():
         departments()
 
 st.title('HEALTHCARE INFORMATION MANAGEMENT SYSTEM')
+st.write('Created by **Kaus**')
 password = st.sidebar.text_input('Enter password', type = 'password')       # user password authentication
 if password == config.password:
     st.sidebar.success('Verified')
